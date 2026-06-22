@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofiane MC | Minecraft</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Tahoma, Arial, sans-serif;
+    background:#121212;
+    color:white;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1627856013091-fed6e4e30025');
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#4CAF50;
+}
+
+.hero p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#4CAF50;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+nav{
+    background:#1b5e20;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:50px 0;
+}
+
+.section h2{
+    text-align:center;
+    color:#4CAF50;
+    margin-bottom:25px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1f1f1f;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#0d0d0d;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>Sofiane MC</h1>
+    <p>محتوى ماين كرافت - تطبيقات - صور - فيديوهات</p>
+    <a href="#apps" class="btn">استكشف المحتوى</a>
+</header>
+
+<nav>
+    <a href="#apps">التطبيقات</a>
+    <a href="#gallery">الصور</a>
+    <a href="#videos">الفيديوهات</a>
+    <a href="#contact">التواصل</a>
+</nav>
+
+<section class="section container" id="apps">
+    <h2>التطبيقات</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <div class="card-content">
+                <h3>تطبيق Minecraft</h3>
+                <p>تحميل أحدث إصدار.</p>
+                <a href="#" class="btn">تحميل</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>Minecraft Mods</h3>
+                <p>أفضل الإضافات والخرائط.</p>
+                <a href="#" class="btn">تحميل</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section container" id="gallery">
+    <h2>معرض الصور</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="image1.jpg">
+        </div>
+
+        <div class="card">
+            <img src="image2.jpg">
+        </div>
+
+        <div class="card">
+            <img src="image3.jpg">
+        </div>
+
+    </div>
+</section>
+
+<section class="section container" id="videos">
+    <h2>أحدث الفيديوهات</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <div class="card-content">
+                <h3>أول فيديو بالقناة</h3>
+                <a href="#" class="btn">مشاهدة</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>سيرفر البقاء</h3>
+                <a href="#" class="btn">مشاهدة</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section container" id="contact">
+    <h2>التواصل الاجتماعي</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <div class="card-content">
+                <h3>YouTube</h3>
+                <a href="#" class="btn">زيارة</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>TikTok</h3>
+                <a href="#" class="btn">زيارة</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>Instagram</h3>
+                <a href="#" class="btn">زيارة</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Sofiane MC - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
